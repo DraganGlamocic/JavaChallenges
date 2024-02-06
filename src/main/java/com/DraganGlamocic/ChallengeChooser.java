@@ -9,7 +9,7 @@ public class ChallengeChooser {
 
     public static void selectChallenge() {
         System.out.println("Challenges:");
-        System.out.println("22: Dog Years\n23: Anagrams\n24: Walking\n25: Football\n26: Winter Numbers");
+        System.out.println("22: Dog Years\n23: Anagrams\n24: Walking\n25: Football\n26: Winter Numbers\n27: Chess");
         switch (ChallengeChooser.chooseChallenge()) {
             case 22:
                 System.out.println("- Dog Years -");
@@ -48,13 +48,23 @@ public class ChallengeChooser {
                 yesOrNo.forEach(string -> builder.append(string).append(" "));
                 System.out.println(builder.toString().trim());
                 break;
+            case 27:
+                System.out.println("- Chess -");
+                System.out.println("First 2 inputs determines Knight position.");
+                System.out.println("Then opponents count, then opponents positions: ");
+
+                ArrayList<String> inputList27 = Inputs.getInputForChallenge27();
+                int attackCount = Chess.getAttackedCount(inputList27);
+
+                System.out.println(attackCount);
+                break;
         }
     }
 
 
     private static int chooseChallenge() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Type the number of the challenge you wan to test: ");
+        System.out.println("Type the number of the challenge you want to test: ");
         return scanner.nextInt();
     }
 }

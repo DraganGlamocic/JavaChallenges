@@ -60,7 +60,34 @@ class Inputs {
             winterNumbers.add(scanner.nextInt());
         }
         return winterNumbers;
+
+
     }
+
+
+    public static ArrayList<String> getInputForChallenge27() {
+        Scanner scanner = new Scanner(System.in);
+
+
+        ArrayList<String> chessInputList = new ArrayList<>();
+        chessInputList.add(scanner.next());
+        chessInputList.add(scanner.next());
+        int n = scanner.nextInt() * 2;      // get int for the for-loop
+        chessInputList.add(String.valueOf(n));  // maybe useful later on
+
+        for (int i = 0; i < n; i++) {
+            chessInputList.add(scanner.next());
+        }
+        n /= 2;
+        chessInputList.set(2, String.valueOf(n));
+        return chessInputList;
+
+        // preset input list for testing: Comment this out when done, uncomment code above.
+//        ArrayList<String> TESTList = new ArrayList<>();
+//        Collections.addAll(TESTList, "e", "4", "10", "c", "5", "d", "6", "f", "6", "g", "5", "g", "3", "f", "2", "d", "2", "c", "3", "e", "5", "a", "1");
+//        return TESTList;
+    }
+
 }
 
 
