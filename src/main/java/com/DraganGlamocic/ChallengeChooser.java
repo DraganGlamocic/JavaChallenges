@@ -9,7 +9,7 @@ public class ChallengeChooser {
 
     public static void selectChallenge() {
         System.out.println("Challenges:");
-        System.out.println("22: Dog Years\n23: Anagrams\n24: Walking\n25: Football\n26: Winter Numbers\n27: Chess");
+        System.out.println("22: Dog Years\n23: Anagrams\n24: Walking\n25: Football\n26: Winter Numbers\n27: Chess\n28: Digit from Sequence");
         switch (ChallengeChooser.chooseChallenge()) {
             case 22:
                 System.out.println("- Dog Years -");
@@ -57,6 +57,16 @@ public class ChallengeChooser {
                 int attackCount = Chess.getAttackedCount(inputList27);
 
                 System.out.println(attackCount);
+                break;
+            case 28:
+                System.out.println("- Digit from Sequence -");
+                System.out.println("The sequence is: 112123123412345123456... etc.");
+                System.out.println("The number you enter will give the digit in that position of this sequence: ");
+
+                int input28 = Inputs.getInputForChallenge28();
+                int position = DigitFromSequence.getDigitFromSequence(input28);
+
+                System.out.println(position);
                 break;
         }
     }

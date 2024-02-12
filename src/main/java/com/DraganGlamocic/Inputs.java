@@ -88,6 +88,13 @@ class Inputs {
 //        return TESTList;
     }
 
+    public static int getInputForChallenge28() {
+        Scanner scanner = new Scanner(System.in);
+        int position = scanner.nextInt();
+        return position;
+    }
+
+
 }
 
 

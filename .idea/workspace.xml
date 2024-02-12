@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b5c2bf4-3d95-4e4b-8c26-21eb23fd4d1c" name="Changes" comment="Practicing math and logics through challenges (Coddy)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/DraganGlamocic/challenges/Chess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/DraganGlamocic/challenges/DigitFromSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/DraganGlamocic/ChallengeChooser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DraganGlamocic/ChallengeChooser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/DraganGlamocic/Inputs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DraganGlamocic/Inputs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/DraganGlamocic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DraganGlamocic/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,21 +34,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/gladr/Documents/IntelliJ/CoddyTester",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gladr/Documents/IntelliJ/CoddyTester&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.DraganGlamocic.Main" />
@@ -80,6 +79,7 @@
       <updated>1705400381642</updated>
       <workItem from="1705400382973" duration="3155000" />
       <workItem from="1705488252522" duration="90542000" />
+      <workItem from="1707760399859" duration="749000" />
     </task>
     <task id="LOCAL-00001" summary="Practicing math and logics through challenges (Coddy)">
       <option name="closed" value="true" />
