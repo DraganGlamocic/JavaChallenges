@@ -9,7 +9,7 @@ public class ChallengeChooser {
 
     public static void selectChallenge() {
         System.out.println("Challenges:");
-        System.out.println("22: Dog Years\n23: Anagrams\n24: Walking\n25: Football\n26: Winter Numbers\n27: Chess\n28: Digit from Sequence");
+        System.out.println("22: Dog Years\n23: Anagrams\n24: Walking\n25: Football\n26: Winter Numbers\n27: Chess\n28: Digit from Sequence\n29: TV Size\n30: Spreading");
         switch (ChallengeChooser.chooseChallenge()) {
             case 22:
                 System.out.println("- Dog Years -");
@@ -67,6 +67,17 @@ public class ChallengeChooser {
                 int position = DigitFromSequence.getDigitFromSequence(input28);
 
                 System.out.println(position);
+                break;
+            case 29:
+                System.out.println("- TV Size -");
+                System.out.println("Enter TV graph according to instructions in README.md: ");
+
+                ArrayList<String> tvInputList = Inputs.getInputForChallenge29();
+                ArrayList<String> widthAndHeight = new ArrayList<>();
+                widthAndHeight = Tv.getTvHeightAndWidth(tvInputList);
+                int height = Integer.parseInt(widthAndHeight.get(0));
+                int width = Integer.parseInt(widthAndHeight.get(1));
+                System.out.println(height + " " + width);
                 break;
         }
     }

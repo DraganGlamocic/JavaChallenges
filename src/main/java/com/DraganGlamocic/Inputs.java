@@ -94,6 +94,31 @@ class Inputs {
         return position;
     }
 
+    public static ArrayList<String> getInputForChallenge29() {
+        Scanner scanner = new Scanner(System.in);
+        ArrayList<String> tvInputList = new ArrayList<>();
+        int rowCounter = 0;
+
+        while (true) {
+            String row = scanner.nextLine();
+            row = row.replaceAll("\\s+", "");
+
+            int rowLength = row.length();
+            String finalChar = String.valueOf(row.charAt(rowLength - 1));
+            tvInputList.add(row);
+            rowCounter++;
+
+            if (finalChar.equals("3")) {
+                tvInputList.clear();
+
+                tvInputList.add(String.valueOf(rowCounter));
+                tvInputList.add(String.valueOf(rowLength));
+                break;
+            }
+        }
+        return tvInputList;
+    }
+
 
 }
 
