@@ -41,7 +41,7 @@ public class ChallengeChooser {
                 System.out.println("- Winter Numbers -");
                 System.out.println("First input determines how many Winter Numbers to enter.");
 
-                ArrayList<Integer> inputNumbersList = Inputs.getInputForChallenge26();
+                ArrayList<Long> inputNumbersList = Inputs.getInputForChallenge26();
                 ArrayList<String> yesOrNo = new ArrayList<>(WinterNumbers.getWinterNumberCount(inputNumbersList));
 
                 StringBuilder builder = new StringBuilder();

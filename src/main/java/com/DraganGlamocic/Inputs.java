@@ -49,19 +49,17 @@ class Inputs {
         return winDrawLoss;
     }
 
-    public static ArrayList<Integer> getInputForChallenge26() {
+    public static ArrayList<Long> getInputForChallenge26() {
         Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
+        long n = scanner.nextInt();
         n *= 1;     // Adjust number to set amount of input pairs.
 
-        ArrayList<Integer> winterNumbers = new ArrayList<>();
+        ArrayList<Long> winterNumbers = new ArrayList<>();
         winterNumbers.add(n);
         for (int i = 0; i < n; i++) {
-            winterNumbers.add(scanner.nextInt());
+            winterNumbers.add(scanner.nextLong());
         }
         return winterNumbers;
-
-
     }
 
 

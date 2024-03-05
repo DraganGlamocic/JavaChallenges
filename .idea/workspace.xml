@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b5c2bf4-3d95-4e4b-8c26-21eb23fd4d1c" name="Changes" comment="- Digit from Sequence -&#10;&#10;Added challenge 29.&#10;The number you enter will give the digit in the input-position of the following sequence: 112123123412345... etc.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/DraganGlamocic/challenges/Tv.java" afterDir="false" />
+    <list default="true" id="4b5c2bf4-3d95-4e4b-8c26-21eb23fd4d1c" name="Changes" comment="- Digit from Sequence -&#10;&#10;Added challenge 29.&#10;enter a graphical representation of a TV like so:&#10;11111&#10;12221&#10;12221&#10;11113&#10;&#10;this gives height and width: 4 5">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/DraganGlamocic/ChallengeChooser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DraganGlamocic/ChallengeChooser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/DraganGlamocic/Inputs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DraganGlamocic/Inputs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DraganGlamocic/challenges/WinterNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DraganGlamocic/challenges/WinterNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +81,7 @@
       <updated>1705400381642</updated>
       <workItem from="1705400382973" duration="3155000" />
       <workItem from="1705488252522" duration="90542000" />
-      <workItem from="1707760399859" duration="4368000" />
+      <workItem from="1707760399859" duration="11980000" />
     </task>
     <task id="LOCAL-00001" summary="Practicing math and logics through challenges (Coddy)">
       <option name="closed" value="true" />
@@ -99,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707764933820</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- Digit from Sequence -&#10;&#10;Added challenge 29.&#10;enter a graphical representation of a TV like so:&#10;11111&#10;12221&#10;12221&#10;11113&#10;&#10;this gives height and width: 4 5">
+      <option name="closed" value="true" />
+      <created>1707818427429</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707818427429</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +116,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Practicing math and logics through challenges (Coddy)" />
     <MESSAGE value="- Digit from Sequence -&#10;&#10;Added challenge 29.&#10;The number you enter will give the digit in the input-position of the following sequence: 112123123412345... etc." />
-    <option name="LAST_COMMIT_MESSAGE" value="- Digit from Sequence -&#10;&#10;Added challenge 29.&#10;The number you enter will give the digit in the input-position of the following sequence: 112123123412345... etc." />
+    <MESSAGE value="- Digit from Sequence -&#10;&#10;Added challenge 29.&#10;enter a graphical representation of a TV like so:&#10;11111&#10;12221&#10;12221&#10;11113&#10;&#10;this gives height and width: 4 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Digit from Sequence -&#10;&#10;Added challenge 29.&#10;enter a graphical representation of a TV like so:&#10;11111&#10;12221&#10;12221&#10;11113&#10;&#10;this gives height and width: 4 5" />
   </component>
 </project>
