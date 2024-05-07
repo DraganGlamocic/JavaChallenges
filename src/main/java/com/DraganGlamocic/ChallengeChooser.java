@@ -17,12 +17,14 @@ public class ChallengeChooser {
                 int dogYearsList = Inputs.getInputForChallenge22();
                 System.out.println(DogYears.dogYears(dogYearsList));
                 break;
+
                 case 23:
                 System.out.println("- Anagrams -");
                 System.out.println("First input determines how many anagrams are checked: ");
                 ArrayList<Integer> anagramNumbersList = Inputs.getInputForChallenge23();
                 System.out.println(Anagrams.anagrams(anagramNumbersList));
                 break;
+
             case 24:
                 System.out.println("- Walking -");
                 System.out.println("Input minutes walked and ran: ");
@@ -30,6 +32,7 @@ public class ChallengeChooser {
                 System.out.println("Remaining steps till 10.000 steps: ");
                 System.out.println(Steps.steps(walkedAndRan));
                 break;
+
             case 25:
                 System.out.println("- Football -");
                 System.out.println("First input determines how many teams to enter.");
@@ -37,6 +40,7 @@ public class ChallengeChooser {
                 ArrayList<Integer> winDrawLossList = Inputs.getInputForChallenge25();
                 System.out.println(FootballPoints.getHighestScore(winDrawLossList));
                 break;
+
             case 26:
                 System.out.println("- Winter Numbers -");
                 System.out.println("First input determines how many Winter Numbers to enter.");
@@ -48,6 +52,7 @@ public class ChallengeChooser {
                 yesOrNo.forEach(string -> builder.append(string).append(" "));
                 System.out.println(builder.toString().trim());
                 break;
+
             case 27:
                 System.out.println("- Chess -");
                 System.out.println("First 2 inputs determines Knight position.");
@@ -58,6 +63,7 @@ public class ChallengeChooser {
 
                 System.out.println(attackCount);
                 break;
+
             case 28:
                 System.out.println("- Digit from Sequence -");
                 System.out.println("The sequence is: 112123123412345123456... etc.");
@@ -68,6 +74,7 @@ public class ChallengeChooser {
 
                 System.out.println(position);
                 break;
+
             case 29:
                 System.out.println("- TV Size -");
                 System.out.println("Enter TV graph according to instructions in README.md: ");
@@ -78,6 +85,10 @@ public class ChallengeChooser {
                 int height = Integer.parseInt(widthAndHeight.get(0));
                 int width = Integer.parseInt(widthAndHeight.get(1));
                 System.out.println(height + " " + width);
+                break;
+
+            case 30:
+                System.out.println("There are " + Inputs.getInputForChallenge30() + " months needed to paint your requested amount of houses.");
                 break;
         }
     }

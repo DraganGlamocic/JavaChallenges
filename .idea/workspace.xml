@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b5c2bf4-3d95-4e4b-8c26-21eb23fd4d1c" name="Changes" comment="- Digit from Sequence -&#10;&#10;Added challenge 29.&#10;enter a graphical representation of a TV like so:&#10;11111&#10;12221&#10;12221&#10;11113&#10;&#10;this gives height and width: 4 5">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/DraganGlamocic/ChallengeChooser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DraganGlamocic/ChallengeChooser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/DraganGlamocic/Inputs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DraganGlamocic/Inputs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/DraganGlamocic/challenges/WinterNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DraganGlamocic/challenges/WinterNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +82,8 @@
       <workItem from="1705400382973" duration="3155000" />
       <workItem from="1705488252522" duration="90542000" />
       <workItem from="1707760399859" duration="11980000" />
+      <workItem from="1712650218504" duration="10000" />
+      <workItem from="1715087529569" duration="2148000" />
     </task>
     <task id="LOCAL-00001" summary="Practicing math and logics through challenges (Coddy)">
       <option name="closed" value="true" />

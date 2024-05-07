@@ -117,7 +117,82 @@ class Inputs {
         return tvInputList;
     }
 
+    public static int getInputForChallenge30() {
+        System.out.println("Give two numbers, width and length.");
+        Scanner scanner = new Scanner(System.in);
+        int height = scanner.nextInt();
+        int width = scanner.nextInt();
 
+        System.out.println("Give the number of houses to be painted.");
+        int housesToBePainted = scanner.nextInt();
+
+        System.out.println("Give the number of houses that are already painted.");
+        int n = scanner.nextInt();
+
+        System.out.println("What are the coordinates of each house that is already painted?");
+        ArrayList<Integer> paintedHousesList = new ArrayList<>();
+        for (int i = 0; i < n * 2; i++) {
+            paintedHousesList.add(scanner.nextInt());
+        }
+
+
+        ArrayList<Integer>[] matrixList = new ArrayList[height];
+        for (int i = 0; i < height; i++) {
+            matrixList[i] = new ArrayList<Integer>(width); // Specify the type here
+            for (int j = 0; j < width; j++) {
+                matrixList[i].add(0);
+            }
+        }
+
+        for (int i = 0; i < n; i++) {
+            matrixList[paintedHousesList.get(0) - 1].set(paintedHousesList.get(1) - 1, 1);
+            paintedHousesList.remove(0);
+            paintedHousesList.remove(0);
+        }
+
+        int paintedCount = n;
+        int rounds = 0;
+        while (paintedCount < housesToBePainted) {
+            ArrayList<Integer>[] tempMatrixList = new ArrayList[height];
+            for (int i = 0; i < height; i++) {
+                tempMatrixList[i] = new ArrayList<Integer>(matrixList[i]);
+            }
+            for (int i = 0; i < height; i++) {
+                for (int j = 0; j < width; j++) {
+                    if (tempMatrixList[i].get(j) == 1) { // Check against tempMatrixList
+                        // Check right neighbor
+                        if (j < width - 1 && matrixList[i].get(j + 1) == 0) {
+                            matrixList[i].set(j + 1, 1);
+                            paintedCount++;
+                        }
+                        // Check left neighbor
+                        if (j > 0 && matrixList[i].get(j - 1) == 0) {
+                            matrixList[i].set(j - 1, 1);
+                            paintedCount++;
+                        }
+                        // Check top neighbor
+                        if (i > 0 && matrixList[i - 1].get(j) == 0) {
+                            matrixList[i - 1].set(j, 1);
+                            paintedCount++;
+                        }
+                        // Check bottom neighbor
+                        if (i < height - 1 && matrixList[i + 1].get(j) == 0) {
+                            matrixList[i + 1].set(j, 1);
+                            paintedCount++;
+                        }
+                    }
+                }
+            }
+            rounds++;
+
+//            System.out.println("\nMatrix After Round " + rounds + ":");
+//            printMatrix(matrixList, height, width);
+//            System.out.println();
+        }
+//        System.out.println(rounds + " months are needed for a total of " + housesToBePainted + " houses to be painted gray.");
+//        System.out.println(" A total of " + paintedCount + " houses were painted gray in " + rounds + " months time.");
+        return rounds;
+    }
 }
 
 
