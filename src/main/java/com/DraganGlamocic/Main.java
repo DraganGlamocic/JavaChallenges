@@ -8,7 +8,7 @@ public class Main {
         while (true){
             ChallengeChooser.selectChallenge();
             System.out.println(" ");
-            Thread.sleep(2000);
+            Thread.sleep(3000);
         }
     }
 }

@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b5c2bf4-3d95-4e4b-8c26-21eb23fd4d1c" name="Changes" comment="- Digit from Sequence -&#10;&#10;Added challenge 29.&#10;enter a graphical representation of a TV like so:&#10;11111&#10;12221&#10;12221&#10;11113&#10;&#10;this gives height and width: 4 5">
+    <list default="true" id="4b5c2bf4-3d95-4e4b-8c26-21eb23fd4d1c" name="Changes" comment="- Digit from Sequence -&#10;&#10;Added challenge 30.&#10;Spreading: Output how many months are need for a total of N houses to be painted gray">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/DraganGlamocic/challenges/Divisors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/DraganGlamocic/ChallengeChooser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DraganGlamocic/ChallengeChooser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/DraganGlamocic/Inputs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DraganGlamocic/Inputs.java" afterDir="false" />
@@ -51,6 +52,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.DraganGlamocic.challenges" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.DraganGlamocic.Main" />
@@ -83,7 +89,7 @@
       <workItem from="1705488252522" duration="90542000" />
       <workItem from="1707760399859" duration="11980000" />
       <workItem from="1712650218504" duration="10000" />
-      <workItem from="1715087529569" duration="2148000" />
+      <workItem from="1715087529569" duration="9599000" />
     </task>
     <task id="LOCAL-00001" summary="Practicing math and logics through challenges (Coddy)">
       <option name="closed" value="true" />
@@ -109,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707818427429</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="- Digit from Sequence -&#10;&#10;Added challenge 30.&#10;Spreading: Output how many months are need for a total of N houses to be painted gray">
+      <option name="closed" value="true" />
+      <created>1715094580994</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715094580994</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +133,7 @@
     <MESSAGE value="Practicing math and logics through challenges (Coddy)" />
     <MESSAGE value="- Digit from Sequence -&#10;&#10;Added challenge 29.&#10;The number you enter will give the digit in the input-position of the following sequence: 112123123412345... etc." />
     <MESSAGE value="- Digit from Sequence -&#10;&#10;Added challenge 29.&#10;enter a graphical representation of a TV like so:&#10;11111&#10;12221&#10;12221&#10;11113&#10;&#10;this gives height and width: 4 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Digit from Sequence -&#10;&#10;Added challenge 29.&#10;enter a graphical representation of a TV like so:&#10;11111&#10;12221&#10;12221&#10;11113&#10;&#10;this gives height and width: 4 5" />
+    <MESSAGE value="- Digit from Sequence -&#10;&#10;Added challenge 30.&#10;Spreading: Output how many months are need for a total of N houses to be painted gray" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Digit from Sequence -&#10;&#10;Added challenge 30.&#10;Spreading: Output how many months are need for a total of N houses to be painted gray" />
   </component>
 </project>

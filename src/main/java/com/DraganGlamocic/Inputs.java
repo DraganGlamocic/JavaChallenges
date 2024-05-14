@@ -193,6 +193,17 @@ class Inputs {
 //        System.out.println(" A total of " + paintedCount + " houses were painted gray in " + rounds + " months time.");
         return rounds;
     }
+
+    public static ArrayList<Integer> getInputForChallenge31() {
+        Scanner scanner = new Scanner(System.in);
+        ArrayList<Integer> StartEndList = new ArrayList<>();
+        System.out.println("Give the lowest range:");
+        StartEndList.add(scanner.nextInt());
+        System.out.println("Give the highest range:");
+        StartEndList.add(scanner.nextInt());
+        return StartEndList;
+    }
+
 }
 
 

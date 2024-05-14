@@ -9,7 +9,7 @@ public class ChallengeChooser {
 
     public static void selectChallenge() {
         System.out.println("Challenges:");
-        System.out.println("22: Dog Years\n23: Anagrams\n24: Walking\n25: Football\n26: Winter Numbers\n27: Chess\n28: Digit from Sequence\n29: TV Size\n30: Spreading");
+        System.out.println("22: Dog Years\n23: Anagrams\n24: Walking\n25: Football\n26: Winter Numbers\n27: Chess\n28: Digit from Sequence\n29: TV Size\n30: Spreading\n31: Divisors");
         switch (ChallengeChooser.chooseChallenge()) {
             case 22:
                 System.out.println("- Dog Years -");
@@ -89,6 +89,18 @@ public class ChallengeChooser {
 
             case 30:
                 System.out.println("There are " + Inputs.getInputForChallenge30() + " months needed to paint your requested amount of houses.");
+                break;
+
+            case 31:
+                System.out.println("- Divisors -");
+                System.out.println("Give the range for how many divisors a number has, so that in that given range we output the number with most divisors.");
+                System.out.println("If there are more numbers with the same amount of divisors, output the smallest of the more numbers.");
+                ArrayList<Integer> StartEndList = Inputs.getInputForChallenge31();
+                ArrayList<Integer> DivisorsList =  Divisors.getDivisors(StartEndList);
+                int numberWithMaxDivisors = DivisorsList.get(0);
+                int maxDivisors = DivisorsList.get(1);
+
+                System.out.println("number " + numberWithMaxDivisors + " has the most divisors: " + maxDivisors);
                 break;
         }
     }
